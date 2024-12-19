@@ -1,3 +1,27 @@
-body {
+ul {
+  list-style: none;
+  background-color: pink;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: .5;
+  padding: 10px;
+}
 
+li {
+  display: inline;
+  padding: 8px 40px;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: purple
+}
+
+li a:hover {
+  background-color: white;
+  padding: 15px
 }
